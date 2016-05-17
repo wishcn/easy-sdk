@@ -1,0 +1,26 @@
+{
+    "name": "zbj/easy_sdk",
+    "description": "easy interface sdk",
+    "type": "library",
+    "authors": [
+        {
+            "name": "邱文熙",
+            "email": "qiuwenxi@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {"com\\zhubajie\\php\\easysdk\\": "src/"}
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
